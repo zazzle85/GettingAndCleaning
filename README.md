@@ -1,6 +1,7 @@
 # GettingAndCleaning
 Coursera Getting and Cleaning Data Assignment
 
+You can read the data with df <- read.table(file_path, header = TRUE) 
 
 
 Reference:
