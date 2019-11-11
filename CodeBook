@@ -22,6 +22,7 @@ and body motion components, was separated using a Butterworth low-pass filter in
 The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. 
 From each window, a vector of features was obtained by calculating variables from the time and frequency domain.
 
-The test data and the training data are combined for both sets and labels then uses the values from the features and activity labels file to 
-correctly identify the features of each column and values in each label. The columns that contain the word "mean" or "std" were subsetted 
-and they were summarized as averages by each activity per subject. dplyr library was used to create the summarized dataset. 
+The test data and the training data are combined for both sets and labels then uses the values from the features and activity labels 
+file to correctly identify the features of each column and values in each label. The columns that contain the word "mean" or 
+"std" were subsetted and they were summarized as averages by each activity per subject. dplyr library was used to create 
+the summarized dataset. 
